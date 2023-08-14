@@ -1,0 +1,80 @@
+{
+    "manifest_version": 3,
+    "name": "breadles opera gx theme",
+    "description": "random thing i made while bored zzz -_-",
+    "version": "0.1",
+    "icons": 
+    {
+        "512": "icon_512.png"
+    },
+    "developer": "breadles",
+    "mod":{
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/bg.jpg",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff",
+                    "first_frame": "wallpaper/bg.jpg"
+                },
+                "light":
+                {
+                    "image": "wallpaper/bg.jpg",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff",
+                    "first_frame": "wallpaper/bg.jpg"
+                }
+            },
+            "theme":
+        {
+            "dark":
+            {
+                "gx_accent":
+                {
+                    "h": 216,
+                    "s": 43,
+                    "l": 9
+                },
+                "gx_secondary_base":
+                {
+                    "h": 218,
+                    "s": 32,
+                    "l": 13
+                }
+            },
+            "light":
+            {
+                "gx_accent":
+                {
+                    "h": 216,
+                    "s": 43,
+                    "l": 9
+                },
+                "gx_secondary_base":
+                {
+                    "h": 218,
+                    "s": 32,
+                    "l": 13
+                }
+            }
+        },
+    "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://www.youtube.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/colors.css"
+                    ]
+                }
+            ]
+        }
+    }
+}
